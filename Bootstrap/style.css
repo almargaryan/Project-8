@@ -1,0 +1,208 @@
+body {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+.header {
+    background-color: #F7FF96;
+    font-size: 14px;
+}
+
+header a, .navbar a {
+    color: #333;
+    text-decoration: none;
+}
+
+header a:hover, .nav-item a:hover{
+    text-decoration: underline;
+}
+
+.search {
+    width: 180px;
+    border-bottom: 1px solid #333;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 24px;
+}
+
+::placeholder {
+    color: #333;
+}
+
+.navbar{
+    font-size: 14px;
+}
+
+.navbar-brand img {
+    max-width: 170px;
+}
+
+.btn {
+    font-size: 14px;
+}
+
+.tel {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.buttons{
+    margin-bottom: 74px;
+}
+
+.card {
+    position: relative;
+    background-color: rgba(233, 251, 223, 1);
+}
+
+.cards {
+    margin-top: 40px;
+}
+
+.card-img-top img {
+    height: 432px;
+    width: 568px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.card-title {
+    font-size: 32px;
+    line-height: 29px;
+    font-weight: 700;
+    letter-spacing: -5.5%;
+}
+
+
+.card-text {
+    height: 36px;
+    max-width: 175px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.18);
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.card .badge-new {
+    font-size: 12px;
+    line-height: 9px;
+    padding: 8px 15px 10px 16px;
+    color: white;
+    background-color: rgba(114, 17, 210, 0.6);
+    border-radius: 5px;
+}
+
+.card .badge-hit {
+    font-size: 12px;
+    line-height: 9px;
+    padding: 8px 12px 10px 16px;
+    color: white;
+    background-color: rgba(50, 205, 50, 0.8);
+    border-radius: 5px;
+}
+
+.line {
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    margin: 60px 0 72px 0;
+}
+
+.order-title {
+    font-weight: bold;
+    color: #7B7B7B;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -2.5px;
+    margin-bottom: 71px;
+}
+
+.order-title .easy {
+    color: #2D262C;
+}
+
+.order-text {
+    padding: 133px 0 0 129px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pagination .page-link {
+    color: rgba(45, 38, 44, 1);
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #6CA715; /* Green color for the active page */
+    color: white;
+}
+
+.pagination .page-link:hover {
+    background-color: #e9ecef; /* Light grey on hover */
+}
+
+.about-us {
+    width: 100%;
+    font-size: 14px;
+    line-height: 19.12px;
+    text-align: justify;
+    margin-top: 63px;
+}
+
+.about-us .address {
+    font-weight: 700;
+}
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+footer h5 {
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+footer ul li {
+    line-height: 23px;
+}
+
+footer ul li a {
+    color: #343a40;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #007bff; /* Bootstrap's primary color */
+}
+
+footer .text-center p {
+    margin-bottom: 5px;
+}
+
+footer .text-center .social-icons a {
+    font-size: 20px;
+    color: #343a40;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+footer .text-center .social-icons a:hover {
+    color: #007bff;
+}
